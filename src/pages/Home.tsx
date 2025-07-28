@@ -17,10 +17,10 @@ const featuredMoviesIds = [
 ];
 
 const featuredImagesMap: Record<string, string> = {
-  tt0145487: "/src/assets/images/spider-man-back.jpg",
-  tt5814060: "/src/assets/images/the-nun-back.jpg",
-  tt2283362: "/src/assets/images/jumanji-bacl.jpg",
-  tt5433138: "/src/assets/images/fast-and-furious.jpg",
+  tt0145487: "/spider-man-back.jpg",
+  tt5814060: "/the-nun-back.jpg",
+  tt2283362: "/jumanji-bacl.jpg",
+  tt5433138: "/fast-and-furious.jpg",
 };
 
 // Catégories de films
