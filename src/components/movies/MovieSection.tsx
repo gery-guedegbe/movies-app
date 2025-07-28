@@ -28,13 +28,17 @@ export const MovieSection = ({ title, query }: MovieSectionProps) => {
 
   return (
     <section className="mb-12">
-      <h2 className="mb-6 text-2xl font-bold">{title}</h2>
+      {movies && (
+        <>
+          <h2 className="mb-6 text-2xl font-bold">{title}</h2>
 
-      <div className="grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-4">
-        {movies.slice(0, 4).map((movie) => (
-          <MovieCard key={movie.imdbID} movie={movie} />
-        ))}
-      </div>
+          <div className="grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-4">
+            {movies.slice(0, 4).map((movie) => (
+              <MovieCard key={movie.imdbID} movie={movie} />
+            ))}
+          </div>
+        </>
+      )}
     </section>
   );
 };

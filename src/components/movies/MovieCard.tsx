@@ -15,8 +15,6 @@ export const MovieCard = ({
   isFavorite,
   onRemoveFromFavorites,
 }: MovieCardProps) => {
-  console.log(`Categories : ${movie.Genre}`);
-
   return (
     <motion.div
       className="group flex flex-col overflow-hidden rounded-2xl bg-white shadow-lg transition hover:shadow-xl"

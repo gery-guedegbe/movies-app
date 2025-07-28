@@ -30,8 +30,6 @@ const Image: React.FC<ImageProps> = ({
     console.error("Erreur lors du chargement de l’image :", src);
   };
 
-  console.log("Image chargée :", src);
-
   return (
     <LazyLoadImage
       src={src}
