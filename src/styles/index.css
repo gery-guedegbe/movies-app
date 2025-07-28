@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import "tailwindcss";
+@import "swiper/css";
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Montserrat", sans-serif;
+}
+
+@theme {
+  /* textColor */
+  --color-lightGray: #f1efee;
+  --color-primary: #fafafa;
+  --color-secColor: #efefef;
+  --color-navColor: #bebebe;
+  --color-custom-red: #ff0000;
+
+  /* backgroundColor*/
+  --color-mainColor: #fefefe;
+  --color-secondaryColor: #f0f0f0;
+  --color-blackOverlay: rgba(0, 0, 0, 0.3);
+
+  /* boxShadow */
+  --shadow-glow: 0 0 18px rgb(255, 0, 0, 0.7);
+  --shadow-glowLight: 0 0 24px rgb(255, 0, 0, 0.5);
+
+  /* fontFamily*/
+  --font-nunito: [ "Nunito", "sans-serif"];
+  --font-roboto: [ "Roboto", "sans-serif"];
+  --font-robotoCondensed: [ "Roboto Condensed", "sans-serif"];
+}
